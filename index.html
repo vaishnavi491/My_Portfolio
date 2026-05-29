@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar" aria-label="Main navigation">
+        <a href="#home" class="logo">Vaishnavi</a>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="theme-toggle" id="themeToggle" aria-label="Theme Toggle">
+          🌙
+        </button>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-text">
+         <h3>Hello, I'm Vaishnavi</h3>
+        <p>I'm a <span class="typed-text"></span></p>
+        <p>Passionate developer focused on building modern, scalable, and user-friendly experiences.
+      Driven by problem-solving, clean design, and creating real-world applications.</p>
+        <div class="hero-buttons">
+
+  <a href="resume.pdf" class="btn-primary">
+    <i class="fas fa-download"></i>
+    Download Resume
+  </a>
+
+  <a href="#contact" class="btn-secondary">
+    Contact Me
+  </a>
+
+</div>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img
+          src="./images/photo.png"
+          alt="vaishnavi morey"
+        />
+      </div>
+    </section>
+   <section id="skills" class="skills-section">
+
+  <h2 class="section-title">Technical Skills</h2>
+
+  <div class="skills-scroll">
+
+    <div class="skills-track">
+
+      <div class="skill-item"><i class="fab fa-html5"></i> HTML5</div>
+      <div class="skill-item"><i class="fab fa-css3-alt"></i> CSS3</div>
+      <div class="skill-item"><i class="fab fa-js"></i> JavaScript</div>
+      <div class="skill-item"><i class="fab fa-react"></i> React</div>
+      <div class="skill-item"><i class="fas fa-code"></i> Next.js</div>
+      <div class="skill-item"><i class="fab fa-node-js"></i> Node.js</div>
+      <div class="skill-item"><i class="fas fa-server"></i> Express.js</div>
+      <div class="skill-item"><i class="fas fa-database"></i> MongoDB</div>
+      <div class="skill-item"><i class="fas fa-database"></i> MySQL</div>
+      <div class="skill-item"><i class="fab fa-github"></i> GitHub</div>
+      <div class="skill-item"><i class="fab fa-git-alt"></i> Git</div>
+      <div class="skill-item"><i class="fas fa-wind"></i> Tailwind CSS</div>
+      <div class="skill-item"><i class="fas fa-fire"></i> Firebase</div>
+
+      <!-- DUPLICATE FOR SMOOTH LOOP -->
+
+      <div class="skill-item"><i class="fab fa-html5"></i> HTML5</div>
+      <div class="skill-item"><i class="fab fa-css3-alt"></i> CSS3</div>
+      <div class="skill-item"><i class="fab fa-js"></i> JavaScript</div>
+      <div class="skill-item"><i class="fab fa-react"></i> React</div>
+      <div class="skill-item"><i class="fas fa-code"></i> Next.js</div>
+      <div class="skill-item"><i class="fab fa-node-js"></i> Node.js</div>
+      <div class="skill-item"><i class="fas fa-server"></i> Express.js</div>
+      <div class="skill-item"><i class="fas fa-database"></i> MongoDB</div>
+      <div class="skill-item"><i class="fas fa-database"></i> MySQL</div>
+      <div class="skill-item"><i class="fab fa-github"></i> GitHub</div>
+      <div class="skill-item"><i class="fab fa-git-alt"></i> Git</div>
+      <div class="skill-item"><i class="fas fa-wind"></i> Tailwind CSS</div>
+      <div class="skill-item"><i class="fas fa-fire"></i> Firebase</div>
+
+    </div>
+
+  </div>
+
+</section>
+<section id="projects">
+
+    <h2 class="project-title">Featured Projects </h2>
+
+    <div class="projects-container">
+
+        <!-- Project 1 -->
+        <a href="https://ai-meeting-intelligence-qlud.vercel.app/"
+           target="_blank"
+           class="project-card">
+
+            <img src="./images/ai-meeting.png" alt="AI Meeting">
+
+            <div class="project-info">
+                <h3>AI Meeting Intelligence</h3>
+
+                <p>
+                    AI-powered meeting platform with smart summaries,
+                    transcripts and insights.
+                </p>
+
+                <span>React • Node.js • MongoDB • AI</span>
+            </div>
+
+        </a>
+
+
+        <!-- Project 2 -->
+        <a href="https://quick-slot-booking.vercel.app/"
+           target="_blank"
+           class="project-card">
+
+            <img src="./images/quickslot.png" alt="QuickSlot">
+
+            <div class="project-info">
+                <h3>QuickSlot</h3>
+
+                <p>
+                    Real-time slot booking platform with
+                    live availability tracking.
+                </p>
+
+                <span>HTML • CSS • JavaScript</span>
+            </div>
+
+        </a>
+
+
+        <!-- Project 3 -->
+        <a href="https://pro-resume-builder-xi.vercel.app/"
+           target="_blank"
+           class="project-card">
+
+            <img src="./images/Proresume.png" alt="ProResume">
+
+            <div class="project-info">
+                <h3>ProResume</h3>
+
+                <p>
+                    ATS-friendly resume generator for
+                    modern professional resumes.
+                </p>
+
+                <span>HTML • CSS • AI</span>
+            </div>
+
+        </a>
+
+    </div>
+
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <h2>Get In Touch</h2>
+          <p>
+            I'd love to hear about your project or opportunities. Send a
+            message and I'll get back to you shortly.
+          </p>
+          <ul class="contact-list">
+            <li>
+              <i class="fas fa-envelope" aria-hidden="true"></i>
+              <a href="vaishnavimorey51@gmail.com">vaishnavimorey51@gmail.com</a>
+            </li>
+            <li>
+              <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+              Nagpur, India
+            </li>
+          </ul>
+        
+<div class="contact-social">
+
+  <!-- LinkedIn -->
+  <a href="https://linkedin.com/in/
+vaishnavi-morey-a1901435b"
+     target="_blank">
+     <i class="fab fa-linkedin"></i>
+  </a>
+
+  <!-- GitHub -->
+  <a href="https://github.com/vaishnavi491"
+     target="_blank">
+     <i class="fab fa-github"></i>
+  </a>
+  <!-- Gmail -->
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=vaishnavimorey51@gmail.com" target="_blank">
+   <i class="fas fa-envelope"></i>
+</a>
+
+</div>
+
+        </div>
+
+        <form class="contact-form" action="#" method="post" aria-label="Contact form">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required />
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+
+          <button type="submit" class="btn-primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
